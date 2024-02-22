@@ -1,7 +1,12 @@
 import React from 'react';
+import SignupClient from './SignupClient';
 
 const Signup = () => {
-    return <div>Signup</div>;
+	return (
+		<>
+			<SignupClient />
+		</>
+	);
 };
 
 export default Signup;
